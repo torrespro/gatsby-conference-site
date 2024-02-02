@@ -1,0 +1,27 @@
+siteInfo:
+  language: en
+  url: https://gatsby-conferencer-demo.netlify.app
+  footerNotes: Created by [Asier](https://twitter.com/asiermarques) with [Gatsby Theme Ágora](https://github.com/asiermarques/gatsby-theme-agora)
+
+conferenceInfo:
+  name: An awesome conference
+  claim: The most important scientific conference of all the times
+  date: 5th May, Barakaldo
+  logoImage: images/logo.png
+  hashTag: "#scfakeconf"
+  shareImage: images/banner.png
+  ticketsCta:
+    text: Get your ticket!
+    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+summary:
+  description: Every 1000 years, all the most relevant representatives regarding the scientific and technology fields meet for share their knowledge.
+  cta:
+    text: Agenda
+    link: "#agenda"
+
+location:
+  mapIframeUrl: https://www.openstreetmap.org/export/embed.html?bbox=-3.0432558059692383%2C43.273112177849896%2C-2.9591417312622075%2C43.31212645126047&amp;layer=mapnik
+  venueInformation: |  
+    Jardin Botánico s/n
+    48902 Barakaldo, España

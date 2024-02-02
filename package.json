@@ -1,0 +1,18 @@
+{
+  "name": "gatsby-theme-agora-demo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^5.9.0",
+    "gatsby-theme-agora": "^1.0.26",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

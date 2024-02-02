@@ -1,0 +1,30 @@
+-
+  venue: Jardin Botánico
+  date: 5 Mayo de 2023
+  slots: ["09:00", "10:00", "11:00", "12:00"]
+  tracks: [1]
+  content:
+    -
+      type: talk
+      track: 1
+      key: the-wifi-basis
+      slot: "09:00"
+
+    -
+      type: talk
+      track: 1
+      key: discovering-radium-and-polonium
+      slot: "10:00"
+
+    -
+      type: talk
+      track: 1
+      key: quadratic-equations
+      slot: "11:00"
+
+    -
+      type: block
+      track: 1
+      slot: "12:00"
+      title: Coffee
+      description: An space for coffee and networking

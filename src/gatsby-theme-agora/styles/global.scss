@@ -1,0 +1,203 @@
+// https://coolors.co/palette/ecbe1d-585655-f2f4f3-172121
+
+$black:              #172121;
+$light:              #F2F4F3;
+$primary:            $black;
+$secondary:          #ECBE1D;
+
+$main-color1:        $primary;
+$main-color2:        #585655;
+$main-color3:        $secondary;
+$main-color4:        $light;
+
+$enable-rounded: false;
+$headings-color: $primary;
+$font-size-base:  1.8rem;
+@import "~bootstrap/scss/bootstrap";
+
+header{
+  background: $primary;
+  padding: 2rem 0;
+  color: $light;
+  a{
+    text-decoration: none;
+  }
+  a, h1{
+    color: $light;
+  }
+  a.logo{
+    display: block;
+    text-align: center;
+    img{
+      width: 100px;
+      height: auto;
+    }
+  }
+  a.btn{
+    margin-top: 0.8rem;
+  }
+}
+header.home{
+  padding: 6rem 0;
+  text-align: center;
+  a.logo{
+    display: inline-block;
+    margin-bottom: 4rem;
+    img{
+      width: 200px;
+      height: auto;
+    }
+  }
+  h1{
+    text-transform: uppercase;
+  }
+  h1, h2{
+    color: $light;
+  }
+  h2{
+    font-weight: lighter;
+  }
+}
+
+.organizer{
+  margin-bottom: 1.8rem;
+}
+
+#summary{
+  padding: 4rem 0;
+  text-align: center;
+  p{
+    margin-bottom: 0;
+  }
+  a.btn{
+    text-decoration: underline;
+    color: $primary;
+  }
+}
+
+#internal-page{
+  padding: 4rem 0;
+}
+
+#speaker-detail, #talk-detail, #page-detail{
+  padding: 4rem 0;
+  border-bottom: 1px solid $secondary;
+  font-size: 1.4rem;
+  h1{
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+  .speaker-summary{
+    .social{
+      margin-bottom: 0.6rem;
+      a.social-icon {
+        width: 1.8rem!important;
+        height: 1.8rem!important;
+        margin: 0 0.2rem;
+      }
+    }
+  }
+}
+#talk-detail{
+  .speaker-in-talk{
+    margin: 4rem 0;
+  }
+  .image{
+    margin-bottom: 1.4rem;
+  }
+
+}
+
+#speakers{
+  padding: 2rem 0 4rem 0;
+  a.speaker-card{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 4rem;
+    .image{
+      background-size: cover;
+      background-color: $gray-500;
+      height: 300px;
+      display: block;
+      filter: $gray-300; /* IE6-9 */
+      -webkit-filter: grayscale(100%);
+    }
+    .image:hover{
+      -webkit-filter: grayscale(0%);
+    }
+
+    .info{
+      margin-top: 1rem;
+      display: block;
+      font-size: 1.2rem;
+      h4{
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+
+#agenda{
+  margin-bottom: 6rem;
+  h2{
+    text-align: center;
+  }
+  .agendaBlockDetails{
+    margin: 4rem 0 2rem 0;
+    text-align: center;
+    display: block;
+    h4{
+      font-size: 1.8rem;
+      color: $primary;
+    }
+    p{
+      font-size: 1.2rem;
+    }
+  }
+  table{
+    margin: 0 0 4rem 0;
+    th{
+      text-align: center;
+    }
+    td, th{
+      padding: 1.5rem 0;
+    }
+  }
+  .agenda_row{
+    span, a{display: block; padding: 0 1rem}
+    span.description{font-size: 1.2rem}
+  }
+}
+
+section.location {
+  background: $primary;
+  color: $light;
+  font-size: 1.4rem;
+  .map {
+    padding: 0;
+  }
+  .address{
+    h4{
+      color: $light;
+    }
+    padding: 2rem;
+  }
+}
+
+footer{
+  padding: 40px 0 80px 0;
+  background: $light;
+  a.nav-link{
+    text-decoration: underline;
+  }
+  .footerNotes{
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid $primary;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
